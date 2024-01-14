@@ -2,7 +2,7 @@ import { z } from 'zod'
 import data from '../data.json'
 
 export async function GET(
-  _: Request,
+  _request: Request,
   { params }: { params: { slug: string } },
 ) {
   await new Promise((resolve) => setTimeout(resolve, 1000))
