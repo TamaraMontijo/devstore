@@ -7,13 +7,19 @@ Getting Started
 To get a local copy of the project up and running, follow these steps:
 
 1) Clone the repository
-   ```git clone https://github.com/TamaraMontijo/devstore.git```
+```
+git clone https://github.com/TamaraMontijo/devstore.git
+```
 
 3) Install dependencies:
 
-```cd devstore
-npm install```
+```
+cd devstore
+npm install
+```
 
 3) Start the aplication:
 
-```npm run dev```
+```
+npm run dev
+```
